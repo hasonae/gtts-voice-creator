@@ -1,0 +1,12 @@
+# مكتبات تطبيق GTTS Voice Creator
+# (نفس النسخ المثبتة في buildozer.spec لتوافق سلوك التطبيق بين سطح المكتب وأندرويد)
+Kivy==2.3.1
+KivyMD==2.0.0
+gTTS==2.5.4
+arabic-reshaper==3.0.1
+# نسخة Python خالصة تعمل على أندرويد أيضاً (النسخ الأحدث مبنية بـ Rust)
+python-bidi==0.4.2
+requests==2.34.2
+
+# للتشغيل على ويندوز تحتاج أيضاً مكتبات Kivy الرسومية:
+# pip install kivy_deps.sdl2==0.8.0 kivy_deps.glew==0.3.1 kivy_deps.angle==0.4.0

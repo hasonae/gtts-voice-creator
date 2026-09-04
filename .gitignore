@@ -3,3 +3,8 @@ __pycache__/
 .buildozer/
 bin/
 *.pyc
+.vscode/
+predownload.sh
+build-supervisor.sh
+download-*.ps1
+predownload.log
