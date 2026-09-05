@@ -26,8 +26,6 @@ android.build_tools_version = 35.0.0
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 
-p4a.branch = 2024.10.1
-
 # إظهار أخطاء Python على وحدة التحكم أثناء الاختبار (عيّنها إلى 0 عند النشر)
 android.logcat_on_failure = 1
 
